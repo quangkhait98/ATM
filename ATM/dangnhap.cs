@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +17,7 @@ namespace ATM
 {
     public partial class dangnhap : Form
     {
+        public string Languages;
         public dangnhap()
         {
             InitializeComponent();
@@ -56,7 +59,10 @@ namespace ATM
                 if (taikhoan.Equals(tkadm.Text) && Pass.Equals(mkadm.Text))
                 {
                     this.Hide();
+                    
                     MainAdmin madm = new MainAdmin();
+                    madm.Languages = Languages;
+                    madm.SetLanguages(Languages);
                     madm.Show();
                 }
                 else
@@ -67,6 +73,18 @@ namespace ATM
                     mkadm.Clear();
                 }
             }
+        }
+
+        public void SetLanguages(string cultureName)
+        {
+            CultureInfo culture;
+            culture = CultureInfo.CreateSpecificCulture(cultureName);
+            ResourceManager rm = new
+                ResourceManager("ATM.Lang.MyResource", typeof(dangnhap).Assembly);
+            lblMatk.Text = rm.GetString("id", culture);
+            lblMaPIN.Text = rm.GetString("pin", culture);
+            lblTKadmin.Text = rm.GetString("account", culture);
+            lblMKadmin.Text = rm.GetString("password", culture);
         }
 
         private void bnt_ok_Click(object sender, EventArgs e)

@@ -12,6 +12,7 @@ namespace ATM
 {
     public partial class Language : Form
     {
+        public string Languages;
         public Language()
         {
             InitializeComponent();
@@ -19,11 +20,23 @@ namespace ATM
 
         private void Tviet_Click(object sender, EventArgs e)
         {
+            Languages = "vi-US";
             this.Hide();
             dangnhap dn = new dangnhap();
+            dn.Languages = this.Languages;
+            dn.SetLanguages(Languages);
             dn.Show();
             
         }
 
+        private void english_Click(object sender, EventArgs e)
+        {
+            Languages = "en-US";
+            this.Hide();
+            dangnhap dn = new dangnhap();
+            dn.Languages = this.Languages;
+            dn.SetLanguages(Languages);
+            dn.Show();
+        }
     }
 }

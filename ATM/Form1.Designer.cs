@@ -53,6 +53,7 @@
             this.english.TabIndex = 1;
             this.english.Text = "ENGLISH";
             this.english.UseVisualStyleBackColor = false;
+            this.english.Click += new System.EventHandler(this.english_Click);
             // 
             // Language
             // 

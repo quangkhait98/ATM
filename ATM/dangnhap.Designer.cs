@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dangnhap));
-            this.khang = new System.Windows.Forms.TabControl();
+            this.tabctrKH = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.bnt_cancel = new System.Windows.Forms.Button();
             this.bnt_ok = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblMaPIN = new System.Windows.Forms.Label();
+            this.lblMatk = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button2 = new System.Windows.Forms.Button();
             this.btn_adok = new System.Windows.Forms.Button();
             this.mkadm = new System.Windows.Forms.TextBox();
             this.tkadm = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.khang.SuspendLayout();
+            this.lblMKadmin = new System.Windows.Forms.Label();
+            this.lblTKadmin = new System.Windows.Forms.Label();
+            this.tabctrKH.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // khang
+            // tabctrKH
             // 
-            this.khang.Controls.Add(this.tabPage1);
-            this.khang.Controls.Add(this.tabPage2);
-            this.khang.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.khang.Location = new System.Drawing.Point(0, 1);
-            this.khang.Name = "khang";
-            this.khang.SelectedIndex = 0;
-            this.khang.Size = new System.Drawing.Size(573, 405);
-            this.khang.TabIndex = 1;
+            this.tabctrKH.Controls.Add(this.tabPage1);
+            this.tabctrKH.Controls.Add(this.tabPage2);
+            this.tabctrKH.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.tabctrKH.Location = new System.Drawing.Point(0, 1);
+            this.tabctrKH.Name = "tabctrKH";
+            this.tabctrKH.SelectedIndex = 0;
+            this.tabctrKH.Size = new System.Drawing.Size(573, 405);
+            this.tabctrKH.TabIndex = 1;
             // 
             // tabPage1
             // 
@@ -68,8 +68,8 @@
             this.tabPage1.Controls.Add(this.bnt_ok);
             this.tabPage1.Controls.Add(this.textBox2);
             this.tabPage1.Controls.Add(this.textBox1);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.lblMaPIN);
+            this.tabPage1.Controls.Add(this.lblMatk);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -113,25 +113,25 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label2
+            // lblMaPIN
             // 
-            this.label2.BackColor = System.Drawing.Color.SkyBlue;
-            this.label2.Location = new System.Drawing.Point(275, 242);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nhập Mã Pin :";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMaPIN.BackColor = System.Drawing.Color.SkyBlue;
+            this.lblMaPIN.Location = new System.Drawing.Point(275, 242);
+            this.lblMaPIN.Name = "lblMaPIN";
+            this.lblMaPIN.Size = new System.Drawing.Size(100, 23);
+            this.lblMaPIN.TabIndex = 1;
+            this.lblMaPIN.Text = "Nhập Mã Pin :";
+            this.lblMaPIN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // lblMatk
             // 
-            this.label1.BackColor = System.Drawing.Color.SkyBlue;
-            this.label1.Location = new System.Drawing.Point(245, 196);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mã Tài Khoản :";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMatk.BackColor = System.Drawing.Color.SkyBlue;
+            this.lblMatk.Location = new System.Drawing.Point(245, 196);
+            this.lblMatk.Name = "lblMatk";
+            this.lblMatk.Size = new System.Drawing.Size(130, 23);
+            this.lblMatk.TabIndex = 0;
+            this.lblMatk.Text = "Mã Tài Khoản :";
+            this.lblMatk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPage2
             // 
@@ -141,8 +141,8 @@
             this.tabPage2.Controls.Add(this.btn_adok);
             this.tabPage2.Controls.Add(this.mkadm);
             this.tabPage2.Controls.Add(this.tkadm);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Controls.Add(this.lblMKadmin);
+            this.tabPage2.Controls.Add(this.lblTKadmin);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -187,23 +187,23 @@
             this.tkadm.TabIndex = 2;
             this.tkadm.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label4
+            // lblMKadmin
             // 
-            this.label4.Location = new System.Drawing.Point(278, 223);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Mật Khẩu :";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMKadmin.Location = new System.Drawing.Point(278, 223);
+            this.lblMKadmin.Name = "lblMKadmin";
+            this.lblMKadmin.Size = new System.Drawing.Size(100, 23);
+            this.lblMKadmin.TabIndex = 1;
+            this.lblMKadmin.Text = "Mật Khẩu :";
+            this.lblMKadmin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // lblTKadmin
             // 
-            this.label3.Location = new System.Drawing.Point(278, 174);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 23);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Tài Khoản :";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTKadmin.Location = new System.Drawing.Point(278, 174);
+            this.lblTKadmin.Name = "lblTKadmin";
+            this.lblTKadmin.Size = new System.Drawing.Size(106, 23);
+            this.lblTKadmin.TabIndex = 0;
+            this.lblTKadmin.Text = "Tài Khoản :";
+            this.lblTKadmin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dangnhap
             // 
@@ -212,11 +212,11 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(572, 405);
-            this.Controls.Add(this.khang);
+            this.Controls.Add(this.tabctrKH);
             this.Name = "dangnhap";
             this.Text = "dangnhap";
             this.Load += new System.EventHandler(this.dangnhap_Load);
-            this.khang.ResumeLayout(false);
+            this.tabctrKH.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -227,20 +227,20 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl khang;
+        private System.Windows.Forms.TabControl tabctrKH;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btn_adok;
         private System.Windows.Forms.TextBox mkadm;
         private System.Windows.Forms.TextBox tkadm;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblMKadmin;
+        private System.Windows.Forms.Label lblTKadmin;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button bnt_cancel;
         private System.Windows.Forms.Button bnt_ok;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblMaPIN;
+        private System.Windows.Forms.Label lblMatk;
     }
 }

@@ -29,74 +29,74 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainAdmin));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnCreatnew = new System.Windows.Forms.Button();
+            this.btnChangPIN = new System.Windows.Forms.Button();
+            this.btnPINreisuse = new System.Windows.Forms.Button();
+            this.btnHisTran = new System.Windows.Forms.Button();
+            this.btnChangeBalane = new System.Windows.Forms.Button();
+            this.btnListUser = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCreatnew
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(2, 116);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 53);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Tạo Tài Khoản Mới";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCreatnew.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCreatnew.Location = new System.Drawing.Point(2, 116);
+            this.btnCreatnew.Name = "btnCreatnew";
+            this.btnCreatnew.Size = new System.Drawing.Size(154, 53);
+            this.btnCreatnew.TabIndex = 0;
+            this.btnCreatnew.Text = "Tạo Tài Khoản Mới";
+            this.btnCreatnew.UseVisualStyleBackColor = false;
+            this.btnCreatnew.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnChangPIN
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Location = new System.Drawing.Point(2, 205);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 53);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Đổi Mật Khẩu";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnChangPIN.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnChangPIN.Location = new System.Drawing.Point(2, 205);
+            this.btnChangPIN.Name = "btnChangPIN";
+            this.btnChangPIN.Size = new System.Drawing.Size(154, 53);
+            this.btnChangPIN.TabIndex = 1;
+            this.btnChangPIN.Text = "Đổi Mật Khẩu";
+            this.btnChangPIN.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnPINreisuse
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Location = new System.Drawing.Point(2, 302);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(154, 53);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Cấp Lại Mật Khẩu";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnPINreisuse.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnPINreisuse.Location = new System.Drawing.Point(2, 302);
+            this.btnPINreisuse.Name = "btnPINreisuse";
+            this.btnPINreisuse.Size = new System.Drawing.Size(154, 53);
+            this.btnPINreisuse.TabIndex = 2;
+            this.btnPINreisuse.Text = "Cấp Lại Mật Khẩu";
+            this.btnPINreisuse.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnHisTran
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.Location = new System.Drawing.Point(413, 116);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(154, 53);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Lịch Sử Giao Dịch";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnHisTran.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHisTran.Location = new System.Drawing.Point(413, 116);
+            this.btnHisTran.Name = "btnHisTran";
+            this.btnHisTran.Size = new System.Drawing.Size(154, 53);
+            this.btnHisTran.TabIndex = 3;
+            this.btnHisTran.Text = "Lịch Sử Giao Dịch";
+            this.btnHisTran.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnChangeBalane
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button5.Location = new System.Drawing.Point(413, 205);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(154, 53);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Thay Đổi Số Dư";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnChangeBalane.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnChangeBalane.Location = new System.Drawing.Point(413, 205);
+            this.btnChangeBalane.Name = "btnChangeBalane";
+            this.btnChangeBalane.Size = new System.Drawing.Size(154, 53);
+            this.btnChangeBalane.TabIndex = 4;
+            this.btnChangeBalane.Text = "Thay Đổi Số Dư";
+            this.btnChangeBalane.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnListUser
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button6.Location = new System.Drawing.Point(413, 302);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(154, 53);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Danh Sách Tài Khoản";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnListUser.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnListUser.Location = new System.Drawing.Point(413, 302);
+            this.btnListUser.Name = "btnListUser";
+            this.btnListUser.Size = new System.Drawing.Size(154, 53);
+            this.btnListUser.TabIndex = 5;
+            this.btnListUser.Text = "Danh Sách Tài Khoản";
+            this.btnListUser.UseVisualStyleBackColor = false;
             // 
             // MainAdmin
             // 
@@ -107,25 +107,26 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(567, 368);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnListUser);
+            this.Controls.Add(this.btnChangeBalane);
+            this.Controls.Add(this.btnHisTran);
+            this.Controls.Add(this.btnPINreisuse);
+            this.Controls.Add(this.btnChangPIN);
+            this.Controls.Add(this.btnCreatnew);
             this.Name = "MainAdmin";
             this.Text = "MainAdmin";
+            this.Load += new System.EventHandler(this.MainAdmin_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnCreatnew;
+        private System.Windows.Forms.Button btnChangPIN;
+        private System.Windows.Forms.Button btnPINreisuse;
+        private System.Windows.Forms.Button btnHisTran;
+        private System.Windows.Forms.Button btnChangeBalane;
+        private System.Windows.Forms.Button btnListUser;
     }
 }
