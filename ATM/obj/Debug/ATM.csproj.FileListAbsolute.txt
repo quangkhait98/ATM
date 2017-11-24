@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Quang Kha\source\repos\ATM\ATM\bin\Debug\ATM.exe.config
 C:\Users\Quang Kha\source\repos\ATM\ATM\bin\Debug\ATM.exe
 C:\Users\Quang Kha\source\repos\ATM\ATM\bin\Debug\ATM.pdb
@@ -11,11 +12,40 @@ C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.pdb
 C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.dangnhap.resources
 C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.AddAccount.resources
 C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.MainAdmin.resources
+=======
+D:\ATM\ATM\bin\Debug\ATM.exe.config
+D:\ATM\ATM\bin\Debug\ATM.exe
+D:\ATM\ATM\bin\Debug\ATM.pdb
+D:\ATM\ATM\bin\Debug\vi-VN\ATM.resources.dll
+D:\ATM\ATM\bin\Debug\en-US\ATM.resources.dll
+D:\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+D:\ATM\ATM\obj\Debug\ATM.AddAccount.resources
+D:\ATM\ATM\obj\Debug\ATM.dangnhap.resources
+D:\ATM\ATM\obj\Debug\ATM.Language.resources
+D:\ATM\ATM\obj\Debug\ATM.MainAdmin.resources
+D:\ATM\ATM\obj\Debug\ATM.Lang.MyResource.resources
+D:\ATM\ATM\obj\Debug\ATM.Properties.Resources.resources
+D:\ATM\ATM\obj\Debug\ATM.Useraction.resources
+D:\ATM\ATM\obj\Debug\ATM.Lang.MyResource.vi-VN.resources
+D:\ATM\ATM\obj\Debug\ATM.Lang.MyResource.en-US.resources
+D:\ATM\ATM\obj\Debug\ATM.csproj.GenerateResource.Cache
+D:\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
+D:\ATM\ATM\obj\Debug\vi-VN\ATM.resources.dll
+D:\ATM\ATM\obj\Debug\en-US\ATM.resources.dll
+D:\ATM\ATM\obj\Debug\ATM.exe
+D:\ATM\ATM\obj\Debug\ATM.pdb
+D:\ATM\ATM\ATM\bin\Debug\ATM.exe.config
+D:\ATM\ATM\ATM\bin\Debug\ATM.exe
+D:\ATM\ATM\ATM\bin\Debug\ATM.pdb
+D:\ATM\ATM\ATM\bin\Debug\vi-VN\ATM.resources.dll
+D:\ATM\ATM\ATM\bin\Debug\en-US\ATM.resources.dll
+>>>>>>> phuc
 D:\ATM\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
 D:\ATM\ATM\ATM\obj\Debug\ATM.AddAccount.resources
 D:\ATM\ATM\ATM\obj\Debug\ATM.dangnhap.resources
 D:\ATM\ATM\ATM\obj\Debug\ATM.Language.resources
 D:\ATM\ATM\ATM\obj\Debug\ATM.MainAdmin.resources
+<<<<<<< HEAD
 D:\ATM\ATM\ATM\obj\Debug\ATM.Properties.Resources.resources
 D:\ATM\ATM\ATM\obj\Debug\ATM.csproj.GenerateResource.Cache
 D:\ATM\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
@@ -24,3 +54,16 @@ D:\ATM\ATM\ATM\obj\Debug\ATM.pdb
 D:\ATM\ATM\ATM\bin\Debug\ATM.exe.config
 D:\ATM\ATM\ATM\bin\Debug\ATM.exe
 D:\ATM\ATM\ATM\bin\Debug\ATM.pdb
+=======
+D:\ATM\ATM\ATM\obj\Debug\ATM.Lang.MyResource.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.Properties.Resources.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.Useraction.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.Lang.MyResource.vi-VN.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.Lang.MyResource.en-US.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.csproj.GenerateResource.Cache
+D:\ATM\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
+D:\ATM\ATM\ATM\obj\Debug\vi-VN\ATM.resources.dll
+D:\ATM\ATM\ATM\obj\Debug\en-US\ATM.resources.dll
+D:\ATM\ATM\ATM\obj\Debug\ATM.exe
+D:\ATM\ATM\ATM\obj\Debug\ATM.pdb
+>>>>>>> phuc

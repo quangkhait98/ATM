@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Resources;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -18,5 +20,6 @@ namespace ATM
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Language());
         }
+        
     }
 }

@@ -36,12 +36,12 @@
             this.txtid = new System.Windows.Forms.TextBox();
             this.txtpin = new System.Windows.Forms.TextBox();
             this.txtbalance = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblChutk = new System.Windows.Forms.Label();
             this.txtname = new System.Windows.Forms.TextBox();
             this.txtage = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTentk = new System.Windows.Forms.Label();
             this.txtusername = new System.Windows.Forms.TextBox();
             lbage = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -107,15 +107,15 @@
             this.txtbalance.Size = new System.Drawing.Size(123, 20);
             this.txtbalance.TabIndex = 5;
             // 
-            // label4
+            // lblChutk
             // 
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label4.Location = new System.Drawing.Point(54, 57);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(134, 23);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Nhập Tên Chủ Tài Khoản :";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblChutk.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblChutk.Location = new System.Drawing.Point(54, 57);
+            this.lblChutk.Name = "lblChutk";
+            this.lblChutk.Size = new System.Drawing.Size(134, 23);
+            this.lblChutk.TabIndex = 6;
+            this.lblChutk.Text = "Nhập Tên Chủ Tài Khoản :";
+            this.lblChutk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtname
             // 
@@ -150,15 +150,15 @@
             this.button2.Text = "CANCEL";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lblTentk
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(57, 113);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 23);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Nhập Tên Tài Khoản :";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTentk.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblTentk.Location = new System.Drawing.Point(57, 113);
+            this.lblTentk.Name = "lblTentk";
+            this.lblTentk.Size = new System.Drawing.Size(131, 23);
+            this.lblTentk.TabIndex = 12;
+            this.lblTentk.Text = "Nhập Tên Tài Khoản :";
+            this.lblTentk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtusername
             // 
@@ -177,13 +177,13 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(513, 341);
             this.Controls.Add(this.txtusername);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblTentk);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtage);
             this.Controls.Add(lbage);
             this.Controls.Add(this.txtname);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblChutk);
             this.Controls.Add(this.txtbalance);
             this.Controls.Add(this.txtpin);
             this.Controls.Add(this.txtid);
@@ -192,6 +192,7 @@
             this.Controls.Add(this.lbid);
             this.Name = "AddAccount";
             this.Text = "AddAccount";
+            this.Load += new System.EventHandler(this.AddAccount_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,12 +206,12 @@
         private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.TextBox txtpin;
         private System.Windows.Forms.TextBox txtbalance;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblChutk;
         private System.Windows.Forms.TextBox txtname;
         private System.Windows.Forms.TextBox txtage;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTentk;
         private System.Windows.Forms.TextBox txtusername;
     }
 }
