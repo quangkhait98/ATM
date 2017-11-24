@@ -33,8 +33,8 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.bnt_cancel = new System.Windows.Forms.Button();
             this.bnt_ok = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.mapincus = new System.Windows.Forms.TextBox();
+            this.matkcus = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -66,8 +66,8 @@
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.bnt_cancel);
             this.tabPage1.Controls.Add(this.bnt_ok);
-            this.tabPage1.Controls.Add(this.textBox2);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.mapincus);
+            this.tabPage1.Controls.Add(this.matkcus);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
@@ -97,21 +97,21 @@
             this.bnt_ok.UseVisualStyleBackColor = true;
             this.bnt_ok.Click += new System.EventHandler(this.bnt_ok_Click);
             // 
-            // textBox2
+            // mapincus
             // 
-            this.textBox2.Location = new System.Drawing.Point(381, 245);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 20);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.mapincus.Location = new System.Drawing.Point(381, 245);
+            this.mapincus.Name = "mapincus";
+            this.mapincus.Size = new System.Drawing.Size(128, 20);
+            this.mapincus.TabIndex = 3;
+            this.mapincus.UseSystemPasswordChar = true;
             // 
-            // textBox1
+            // matkcus
             // 
-            this.textBox1.Location = new System.Drawing.Point(381, 196);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(128, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.matkcus.Location = new System.Drawing.Point(381, 196);
+            this.matkcus.Name = "matkcus";
+            this.matkcus.Size = new System.Drawing.Size(128, 20);
+            this.matkcus.TabIndex = 2;
+            this.matkcus.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
             // 
@@ -238,8 +238,8 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button bnt_cancel;
         private System.Windows.Forms.Button bnt_ok;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox mapincus;
+        private System.Windows.Forms.TextBox matkcus;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

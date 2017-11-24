@@ -18,15 +18,15 @@ namespace ATM
         public dangnhap()
         {
             InitializeComponent();
-            
 
-         }
-       
-       void SerializeToAdmin()
+
+        }
+
+        void SerializeToAdmin()
         {
             Admin adm = new Admin();
             XmlSerializer seri = new XmlSerializer(typeof(Admin));
-            StreamWriter sw = new StreamWriter(new FileStream("ADMIN", FileMode.Create));
+            StreamWriter sw = new StreamWriter(new FileStream("Admin", FileMode.Create));
             seri.Serialize(sw, adm);
             sw.Close();
         }
@@ -34,14 +34,14 @@ namespace ATM
         {
             Admin adm = new Admin();
             XmlSerializer seri = new XmlSerializer(typeof(Admin));
-            StreamReader Rw = new StreamReader(new FileStream("ADMIN", FileMode.Open));
-            adm=(Admin)seri.Deserialize(Rw);   
+            StreamReader Rw = new StreamReader(new FileStream("Admin", FileMode.Open));
+            adm = (Admin)seri.Deserialize(Rw);
             Rw.Close();
         }
 
         private void dangnhap_Load(object sender, EventArgs e)
         {
-            DeSerializeAdmin();
+            SerializeToAdmin();
         }
 
         private void btn_adok_Click_1(object sender, EventArgs e)
@@ -71,9 +71,26 @@ namespace ATM
 
         private void bnt_ok_Click(object sender, EventArgs e)
         {
-
+            XmlDocument doc = new XmlDocument();
+            FileStream bs = new FileStream("users.xml", FileMode.Open, FileAccess.Read);
+            doc.Load(bs);
+            foreach (XmlNode node in doc.SelectNodes("users.xml"))
+            {
+                string mataikhoan = node.SelectSingleNode("Username").InnerText;
+                string Pin = node.SelectSingleNode("Password").InnerText;
+                if (mataikhoan.Equals(matkcus.Text) && Pin.Equals(mapincus.Text))
+                {
+                    MessageBox.Show("s");
+                }
+                else
+                {
+                    MessageBox.Show("tai khoan hoac mat khau sai. xin nhap lai...!!!");
+                    matkcus.Clear();
+                    mapincus.Clear();
+                }
+            }
         }
-    }
 
-        
-}
+    }
+}      
+

@@ -11,3 +11,16 @@ C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.pdb
 C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.dangnhap.resources
 C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.AddAccount.resources
 C:\Users\Quang Kha\source\repos\ATM\ATM\obj\Debug\ATM.MainAdmin.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+D:\ATM\ATM\ATM\obj\Debug\ATM.AddAccount.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.dangnhap.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.Language.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.MainAdmin.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.Properties.Resources.resources
+D:\ATM\ATM\ATM\obj\Debug\ATM.csproj.GenerateResource.Cache
+D:\ATM\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
+D:\ATM\ATM\ATM\obj\Debug\ATM.exe
+D:\ATM\ATM\ATM\obj\Debug\ATM.pdb
+D:\ATM\ATM\ATM\bin\Debug\ATM.exe.config
+D:\ATM\ATM\ATM\bin\Debug\ATM.exe
+D:\ATM\ATM\ATM\bin\Debug\ATM.pdb
