@@ -59,7 +59,7 @@ namespace ATM
                 if (taikhoan.Equals(tkadm.Text) && Pass.Equals(mkadm.Text))
                 {
                     this.Hide();
-                    
+
                     MainAdmin madm = new MainAdmin();
                     madm.Languages = Languages;
                     madm.SetLanguages(Languages);
@@ -89,7 +89,7 @@ namespace ATM
 
         private void bnt_ok_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             XmlDocument doc = new XmlDocument();
             FileStream bs = new FileStream("users.xml", FileMode.Open, FileAccess.Read);
             doc.Load(bs);
@@ -108,34 +108,35 @@ namespace ATM
                     mapincus.Clear();
                 }
             }
-//=======
-//            //XmlDocument doc = new XmlDocument();
-//            //FileStream fs = new FileStream("User", FileMode.Open, FileAccess.Read);
-//            //doc.Load(fs);
-//            //foreach (XmlNode node in doc.SelectNodes("User"))
-//            //{
-//            //    string taikhoan = node.SelectSingleNode("tk").InnerText;
-//            //    string Pass = node.SelectSingleNode("pass").InnerText;
-//            //    if (taikhoan.Equals(tkadm.Text) && Pass.Equals(mkadm.Text))
-//            //    {
-//                    this.Hide();
+            //=======
+            //            //XmlDocument doc = new XmlDocument();
+            //            //FileStream fs = new FileStream("User", FileMode.Open, FileAccess.Read);
+            //            //doc.Load(fs);
+            //            //foreach (XmlNode node in doc.SelectNodes("User"))
+            //            //{
+            //            //    string taikhoan = node.SelectSingleNode("tk").InnerText;
+            //            //    string Pass = node.SelectSingleNode("pass").InnerText;
+            //            //    if (taikhoan.Equals(tkadm.Text) && Pass.Equals(mkadm.Text))
+            //            //    {
+            //                    this.Hide();
 
-//                    Useraction madm2 = new Useraction();
-//                    madm2.Languages = Languages;
-//                    madm2.SetLanguages(Languages);
-//                    madm2.Show();
-//            //    }
-//            //    else
-//            //    {
-//            //        MessageBox.Show("nhap lai");
-//            //        tkadm.Clear();
-//            //        tkadm.Focus();
-//            //        mkadm.Clear();
-//            //    }
-//            //}
-//>>>>>>> phuc
-//        }
+            //                    Useraction madm2 = new Useraction();
+            //                    madm2.Languages = Languages;
+            //                    madm2.SetLanguages(Languages);
+            //                    madm2.Show();
+            //            //    }
+            //            //    else
+            //            //    {
+            //            //        MessageBox.Show("nhap lai");
+            //            //        tkadm.Clear();
+            //            //        tkadm.Focus();
+            //            //        mkadm.Clear();
+            //            //    }
+            //            //}
+            //>>>>>>> phuc
+            //        }
 
+        }
     }
-}      
+}
 
