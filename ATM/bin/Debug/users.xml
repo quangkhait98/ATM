@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <UsersList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Item>
     <Users>
@@ -7,6 +7,14 @@
       <Username>marsu</Username>
       <Password>90</Password>
       <Age>20</Age>
+      <Balance>900000</Balance>
+    </Users>
+    <Users>
+      <Id>98</Id>
+      <Name>quangkha</Name>
+      <Username>kha</Username>
+      <Password>99</Password>
+      <Age>89</Age>
       <Balance>900000</Balance>
     </Users>
   </Item>

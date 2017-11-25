@@ -33,17 +33,14 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.bnt_cancel = new System.Windows.Forms.Button();
             this.bnt_ok = new System.Windows.Forms.Button();
-
             this.mapincus = new System.Windows.Forms.TextBox();
             this.matkcus = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblMaPIN = new System.Windows.Forms.Label();
             this.lblMatk = new System.Windows.Forms.Label();
-
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button2 = new System.Windows.Forms.Button();
             this.btn_adok = new System.Windows.Forms.Button();
@@ -73,17 +70,14 @@
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.bnt_cancel);
             this.tabPage1.Controls.Add(this.bnt_ok);
-
             this.tabPage1.Controls.Add(this.mapincus);
             this.tabPage1.Controls.Add(this.matkcus);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
-
             this.tabPage1.Controls.Add(this.textBox2);
             this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.lblMaPIN);
             this.tabPage1.Controls.Add(this.lblMatk);
-
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -126,6 +120,34 @@
             this.matkcus.Size = new System.Drawing.Size(128, 20);
             this.matkcus.TabIndex = 2;
             this.matkcus.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(0, 0);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 8;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 9;
             // 
             // lblMaPIN
             // 
@@ -252,9 +274,6 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button bnt_cancel;
         private System.Windows.Forms.Button bnt_ok;
-
-        private System.Windows.Forms.TextBox mapincus;
-        private System.Windows.Forms.TextBox matkcus;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
 
@@ -262,6 +281,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblMaPIN;
         private System.Windows.Forms.Label lblMatk;
-
+        public System.Windows.Forms.TextBox mapincus;
+        public System.Windows.Forms.TextBox matkcus;
     }
 }

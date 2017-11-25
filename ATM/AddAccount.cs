@@ -28,7 +28,7 @@ namespace ATM
             Users user = new Users(Convert.ToInt32(txtid.Text), txtname.Text, txtusername.Text, txtpin.Text, Convert.ToInt32(txtage.Text), (float)Convert.ToDouble(txtbalance.Text));
             usermg.Items.Add(user);
             usermg.Serialize();
-            Console.WriteLine("aaaaa");
+            MessageBox.Show("tao thanh cong !...");
         }
 
         private void AddAccount_Load(object sender, EventArgs e)

@@ -18,7 +18,17 @@ namespace ATM
 {
     public partial class dangnhap : Form
     {
+        public class truyengt
+        {
+            private static string mktk;
+
+            public static string Mktk { get => mktk; set => mktk = value; }
+        }
+        
         public string Languages;
+
+       // public string mktk { get; private set; }
+
         public dangnhap()
         {
             InitializeComponent();
@@ -91,27 +101,10 @@ namespace ATM
         private void bnt_ok_Click(object sender, EventArgs e)
         {
 
-            //XmlDocument doc = new XmlDocument();
-            //FileStream bs = new FileStream("users.xml", FileMode.Open, FileAccess.Read);
-            //doc.Load(bs);
-            //foreach (XmlNode node in doc.SelectNodes("users"))
-            //{
-            //    string mataikhoan = node.SelectSingleNode("Username").InnerText;
-            //    string Pin = node.SelectSingleNode("Password").InnerText;
-            //    if (mataikhoan.Equals(matkcus.Text) && Pin.Equals(mapincus.Text))
-            //    {
-            //        MessageBox.Show("s");
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("tai khoan hoac mat khau sai. xin nhap lai...!!!");
-            //        matkcus.Clear();
-            //        mapincus.Clear();
-            //    }
-            //}
-           
+            //mktk = mapincus.Text;
             if(kiemtratk(matkcus.Text,mapincus.Text))
             {
+               truyengt.Mktk = mapincus.Text;
                 Useraction us = new Useraction();
                 us.Languages = Languages;
                 us.SetLanguages(Languages);
@@ -131,7 +124,7 @@ namespace ATM
         {
             XElement xelement = XElement.Load("users.xml");
             var username = from nm in xelement.Elements("Item")
-                           where (string)nm.Element("Users").Element("Username") == matkcus.Text && (string)nm.Element("Users").Element("Password") == mapincus.Text
+                           where (string)nm.Element("Users").Element("Username") ==Username && (string)nm.Element("Users").Element("Password") == Password
                            select nm;
             if (username.Any())
             {

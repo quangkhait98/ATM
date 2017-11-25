@@ -73,6 +73,7 @@
             this.btnDoiPIN.TabIndex = 0;
             this.btnDoiPIN.Text = "Đổi mã PIN";
             this.btnDoiPIN.UseVisualStyleBackColor = true;
+            this.btnDoiPIN.Click += new System.EventHandler(this.btnDoiPIN_Click);
             // 
             // btnNaptien
             // 

@@ -56,3 +56,4 @@ D:\ATM\ATM\ATM\obj\Debug\ATM.Lang.MyResource.vi-VN.resources
 D:\ATM\ATM\ATM\obj\Debug\ATM.Lang.MyResource.en-US.resources
 D:\ATM\ATM\ATM\obj\Debug\vi-VN\ATM.resources.dll
 D:\ATM\ATM\ATM\obj\Debug\en-US\ATM.resources.dll
+D:\ATM\ATM\ATM\obj\Debug\ATM.DoiMK.resources

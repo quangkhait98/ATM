@@ -38,5 +38,12 @@ namespace ATM
             btnThoat.Text = rm.GetString("thoat", culture);
             btnVantin.Text = rm.GetString("vantin", culture);
         }
+
+        private void btnDoiPIN_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DoiMK dmk = new DoiMK();
+            dmk.Show();
+        }
     }
 }
